@@ -1,0 +1,49 @@
+.main-div {
+  width: 500px;
+}
+
+.child-div .title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.addItems {
+  position: relative;
+}
+
+.addItems i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4a0a77;
+  cursor: pointer;
+}
+
+.showItems {
+  margin-top: 20px;
+}
+
+.eachItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9d4edd;
+  padding: 8px 15px;
+  border-radius: .4rem;
+  margin-bottom: 10px;
+}
+
+.eachItem h3 {
+  font-size: .9rem;
+}
+
+.todo_btn {
+  display: flex;
+  gap: 5px;
+}
+
+.todo_btn i {
+  cursor: pointer;
+  font-size: 18px;
+}
