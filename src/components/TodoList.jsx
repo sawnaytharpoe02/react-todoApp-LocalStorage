@@ -13,7 +13,7 @@ const getLocalData = () => {
   }
 };
 
-const ToDo = () => {
+const TodoList = () => {
   const [inputdata, setInputData] = useState('');
   const [items, setItems] = useState(getLocalData());
   const [isEditItem, setIsEditItem] = useState('');
@@ -124,4 +124,4 @@ const ToDo = () => {
   );
 };
 
-export default ToDo;
+export default TodoList;

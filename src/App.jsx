@@ -1,8 +1,8 @@
-import React from 'react';
-import ToDo from './components/ToDo';
+import React from "react";
+import TodoList from "./components/TodoList";
 
 const App = () => {
-  return <ToDo />;
+  return <TodoList />;
 };
 
 export default App;
